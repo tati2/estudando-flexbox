@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-image: url(https://4.bp.blogspot.com/-7ayZPft3a3M/UZrwSrUKzSI/AAAAAAAAC6E/Evb1hRn-ZRM/s1600/06.jpgbb7777f5-6754-44bb-81e8-44c798e3c008Large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+} */
+
+
+.box-header-logo{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-logo{
+    width: 5rem;
+}
+.box-nav{
+    height: 6vh;
+    background-color: darkseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-header{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-header li{
+    margin-right: 3rem;
+}
+
+.container-main{
+    display: flex;
+    
+}
+.img-box-main{
+    width: 70%;
+   
+}
+.img-box-main img{
+    width: 97%;
+}
+.box-imgs-group img{
+    width: 100%;
+    display: flex;
+
+}
+.box-imgs-group{
+    width: 30%;
+}
+.container-sobre{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+}
+
+.box-sobre p{
+    margin-top: 1rem;
+}
+.container-significado-plantas{
+    display: flex;
+}
+.box-sig{
+    width: 50%;
+}
